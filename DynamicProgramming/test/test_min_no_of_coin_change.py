@@ -2,10 +2,7 @@
 # question's sample test case. Feel free to add, edit,
 # or remove test cases in this file as you see fit!
 
-import sys
-sys.path.insert(1, '../scripts/min_no_of_coin_change')
-
-import minNumberOfCoinsForChange
+from scripts.min_no_of_coin_change import minNumberOfCoinsForChange
 import unittest
 
 
