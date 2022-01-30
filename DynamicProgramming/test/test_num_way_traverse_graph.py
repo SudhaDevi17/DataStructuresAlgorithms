@@ -2,9 +2,13 @@
 # question's sample test case. Feel free to add, edit,
 # or remove test cases in this file as you see fit!
 
-from scripts.min_no_of_coin_change import minNumberOfCoinsForChange
 import unittest
+from scripts.num_way_traverse_graph import numberOfWaysToTraverseGraph
 
 class TestProgram(unittest.TestCase):
     def test_case_1(self):
-        self.assertEqual(minNumberOfCoinsForChange(7, [1, 5, 10]), 3)
+        width = 4
+        height = 3
+        expected = 10
+        actual = numberOfWaysToTraverseGraph(width, height)
+        self.assertEqual(actual, expected)
