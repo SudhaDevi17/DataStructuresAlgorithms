@@ -29,8 +29,7 @@ def getMedian(input_list):
         middle = (sorted_list[left_middle_index] + sorted_list[right_middle_index])/2
     else:
         middle  = sorted_list[middle_index]
-    # print('even {}'.format( 44//2))
-    # print('odd {}' .format(23//2))
+
     return middle
 
 #TEST MODE
