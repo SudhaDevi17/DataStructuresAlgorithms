@@ -27,7 +27,9 @@ def optimizedGroupAnagrams(words):
     """
     :param words: list of anagrams
     :return: a list of similar anagrams into a bucket
-    O() time complexity | O() space complexity
+    O(n*w*log(w)) time complexity | O(n*w) space complexity
+    n - number of words in the input
+    w - the length of longest word
     """
     anagrams = {}
     for word in words:
