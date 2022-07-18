@@ -10,8 +10,6 @@ def groupAnagrams(words):
     for i,word in enumerate(words):
         aux_words[i] = ''.join(sorted(word))
     word_map = {}
-    from collections import defaultdict
-    #word_map = defaultdict()
     for idx, string in enumerate(aux_words):
         if string not in word_map:
             word_map[string] = []
